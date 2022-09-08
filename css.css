@@ -98,6 +98,8 @@ margin-bottom: 38px;
 .box{
     display: flex;
      margin-top: 40px;
+   
+    
 }
 .box1  .title{
     font-family: 'Roboto';
@@ -149,7 +151,7 @@ padding-left: 10px;
     margin-left: 50px;
 }
 .footer{
-    margin-top: 183px;
+    margin-top: 177px;
     height: 79px;
     text-align: left;
     width: 100%;
