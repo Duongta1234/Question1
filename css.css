@@ -38,7 +38,7 @@ body {
 
 .content {
     height: 935px;
-    width: 100%;
+    width: 1768px;
     margin: auto;
 
 }
@@ -60,12 +60,12 @@ body {
 
 .paragrap-firt {
     width: 1510px;
+   margin: auto;
     height: 210px;
     background: #EFEFEF;
     text-align: center;
 }
 
-.paragrap-firt .upper {}
 
 .paragrap-firt .upper p {
 
