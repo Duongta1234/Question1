@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.navbar {
+    justify-content: left;
+    width: 150px;
+    background-color: #191718;
+    height: 935px;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar li {
+    width: 100%;
+    height: 44px;
+    color: white;
+    border-bottom: 1px solid grey;
+    padding: 10px 10px;
+}
+
+.navbar li:hover {
+    background-color: grey;
+}
+
+.content {
+    height: 935px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.content .logo {
+    width: 100%;
+    text-align: center;
+
+
+    margin: auto;
+}
+
+.content .logo img {
+    width: 310px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 122px;
+}
+
+.paragrap-firt {
+    width: 1510px;
+    height: 210px;
+    background: #EFEFEF;
+    text-align: center;
+}
+
+.paragrap-firt .upper {}
+
+.paragrap-firt .upper p {
+
+    width: 241px;
+    height: 21px;
+    margin: auto;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 18px;
+    padding-top: 38px;
+}
+
+.paragrap-firt .under {
+    width: 972px;
+    height: 95px;
+    margin: auto;
+}
+
+.paragrap-firt .under p {
+margin-top: 18px;
+margin-bottom: 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+
+}
+.box{
+    display: flex;
+     margin-top: 40px;
+}
+.box1  .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    width: 470px;
+    height: 28px;
+}
+.box1 .image{
+    display: flex;
+}
+.box1 .image p{
+    width: 326px;
+    height: 134px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+word-spacing: 2px;
+color: #000000;
+padding-left: 10px;
+}
+.box1 .image img{
+    width: 128px;
+    height: 128px;
+}
+.box1 .textunder{
+    width: 470px;
+    height: 72px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+.box1:nth-child(2){
+    margin-left: 50px;
+}
+.box1:nth-child(3){
+    margin-left: 50px;
+}
+.footer{
+    margin-top: 183px;
+    height: 79px;
+    text-align: left;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+.footer p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-left: 129px;
+margin-top: 30px;
+}
